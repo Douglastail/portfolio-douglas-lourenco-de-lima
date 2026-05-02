@@ -34,9 +34,23 @@ Possuo sólida experiência em análise de processos e suporte técnico multiski
 ### 📂 Portfólio de Projetos (Exercícios de Lógica)
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Cálculo de Hipotenusa** | Algoritmo que utiliza a biblioteca `math` para cálculos trigonométricos. | [Ver Projeto](./desafio-017/) |
-| **Seno, Cosseno e Tangente** | Conversão de ângulos e cálculos de funções circulares em Python. | [Ver Projeto](./desafio-018/) |
-| **Gestão de Aluguel** | Programa para cálculo de custos fixos e variáveis com lógica de decisão. | [Ver Projeto](./aluguel-carros/) |
+### 📂 Portfólio de Projetos
+ 
+#### 🗃️ Modelagem de Banco de Dados
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Segurança e Auditoria** | Sistema para detecção de anomalias financeiras, focado em tratamento de exceções e gestão de variáveis globais.. | [Ver Projeto](./projeto-banco-dados/) |
+ 
+#### 🤖 Inteligência Artificial
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Inteligência e Simulação** | Algoritmos de análise ambiental (IQA) e simulador de navegação espacial com lógica de estados.. | [Ver Projeto](./projeto-ia-churn/) |
+
+
+#### 🎨 Computação Gráfica e Dados
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Computação Gráfica e Dados** | Manipulação de pixels RGB e transposição de matrizes utilizando NumPy e Matplotlib... | [Ver Projeto](./projeto-ia-churn/) |
 
 ---
 
