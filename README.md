@@ -35,34 +35,6 @@ Possuo sólida experiência em análise de processos e suporte técnico multiski
 #### 🗃️ Modelagem de Banco de Dados
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-# 🛡️ Sistema de Auditoria de Vendas
- 
-## 📝 Descrição do Projeto
-Este projeto consiste em uma ferramenta de monitoramento e validação de transações financeiras desenvolvida em Python. O objetivo principal é automatizar a detecção de discrepâncias em vendas e garantir a integridade dos dados através de uma lógica de auditoria que identifica valores atípicos (outliers) em relação à média do período.
- 
-O sistema analisa um conjunto de entradas, calcula métricas de desempenho e aplica filtros de segurança. Caso uma irregularidade seja detectada, o programa solicita uma intervenção manual, permitindo o ajuste dinâmico dos parâmetros de segurança globais do sistema.
- 
-## 🚀 Tecnologias Utilizadas
-* **Linguagem:** Python 3.10
-* **Paradigma:** Programação Estruturada
-* **Principais Conceitos:** Tratamento de exceções (Try/Except), Escopo Global, Estruturas de Repetição e Manipulação de Listas.
- 
-## 📊 Funcionalidades e Aprendizados
-O script demonstra a aplicação prática de lógica de programação voltada para ambientes corporativos e de conformidade:
-* **Detecção de Discrepâncias:** Implementação de algoritmo que identifica valores 5x superiores à média calculada.
-* **Tratamento de Erros:** Uso de `ValueError` para garantir que apenas entradas numéricas válidas processem o fluxo de caixa.
-* **Gerenciamento de Estado:** Aplicação da palavra-chave `global` para permitir que administradores atualizem limites de segurança em tempo de execução.
-* **Verificação de Tipagem:** Logs detalhados ao final da execução para garantir a integridade dos tipos de dados (`float`).
- 
-## 🔧 Como Executar
-1. Certifique-se de ter o Python instalado em sua máquina.
-2. Clone o repositório ou baixe o arquivo `untitled1.py`.
-3. Execute o script via terminal:
-   ```bash
-   python untitled1.py
-
-
-
 | **Segurança e Auditoria** | Sistema para detecção de anomalias financeiras, focado em tratamento de exceções e gestão de variáveis globais.. | [Ver Projeto](./projeto-banco-dados/)
 
 #### 🤖 Inteligência Artificial
