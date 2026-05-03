@@ -1,4 +1,4 @@
-[untitled1.py](https://github.com/user-attachments/files/27323681/untitled1.py)# Douglas Lourenço de Lima
+(https://github.com/user-attachments/files/27323681/untitled1.py)# Douglas Lourenço de Lima
 > Estudante de Ciência da Computação
  
 ---
