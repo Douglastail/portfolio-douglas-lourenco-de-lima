@@ -1,6 +1,6 @@
-(https://github.com/user-attachments/files/27323681/untitled1.py)# Douglas Lourenço de Lima
-> Estudante de Ciência da Computação
- 
+# Douglas Lourenço de lima
+> Estudante de Ciência da Computação da Universidade Cidade de São Paulo (UNICID).
+
 ---
 
 ### 📫 Contato & Redes Sociais
