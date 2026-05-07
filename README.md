@@ -42,6 +42,66 @@ Possuo sólida experiência em análise de processos e suporte técnico multiski
 | :--- | :--- | :---: |
 | **Simulação** | 🌎 Análise de Microclima Temporal em Python
 
+# 🌎 Análise de Microclima Temporal em Python
+
+Projeto desenvolvido em Python para análise de condições ambientais em diferentes locais urbanos.
+
+## 📌 Sobre o Projeto
+
+O sistema realiza uma análise temporal de microclima utilizando dados de:
+- temperatura
+- umidade
+- índice de qualidade do ar (IQA)
+
+Com base nessas informações, o algoritmo calcula uma nota ambiental para cada local analisado, classificando automaticamente a qualidade do ar.
+
+---
+
+## 🧠 Funcionalidades
+
+✅ Análise de múltiplos locais  
+✅ Classificação automática do IQA  
+✅ Cálculo de nota ambiental  
+✅ Penalidade por baixa ou alta umidade  
+✅ Uso de estruturas condicionais e listas  
+✅ Relatório organizado no terminal  
+
+---
+
+## 🖥️ Tecnologias Utilizadas
+
+- Python 3
+
+---
+
+## 📚 Conceitos Aplicados
+
+Este projeto foi criado para praticar:
+- funções
+- listas aninhadas
+- estruturas condicionais (`if/elif`)
+- laços de repetição (`for`)
+- variáveis
+- cálculos matemáticos
+- organização de dados
+
+---
+
+## ▶️ Como Executar
+
+1. Instale o Python 3
+2. Execute o arquivo:
+
+[Ver Projeto](./projeto-banco-dados/)
+
+
+
+
+
+### 🚨 Simulador de Evacuação em Python
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| ** O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe... |
 # 🚨 Simulador de Evacuação em Python
 
 Projeto desenvolvido em Python com foco em lógica de programação, estruturas condicionais e interação com o usuário.
@@ -100,35 +160,8 @@ Este projeto ajudou no desenvolvimento de:
 1. Instale o Python 3
 2. Execute o arquivo:
 
-Projeto desenvolvido em Python para análise de condições ambientais em diferentes locais urbanos... | [Ver Projeto](./Algoritmos-de-análise-ambiental/) |
+[Ver Projeto](./projeto-ia-churn/) |
 
-
-### 🚨 Simulador de Evacuação em Python
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| ** O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe... | [Ver Projeto](./projeto-ia-churn/) |
-
-## 📌 Sobre o Projeto
-
-O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe.
-
-Durante o percurso, o usuário pode:
-- avançar entre locais
-- voltar caminhos
-- encontrar itens importantes
-- abrir portas
-- gerenciar a energia restante
-
-O projeto foi criado com objetivo educacional para praticar:
-- `while`
-- `if/elif`
-- listas
-- variáveis booleanas
-- controle de estados
-- entrada de dados com `input()`
-- lógica de movimentação
-
----
 
 #### 🎨 Computação Gráfica e Dados
 | Projeto | Descrição | Link |
