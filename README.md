@@ -48,7 +48,7 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
 #### 🛡️ Sistema de Auditoria de Vendas em Python
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Sistema de Auditoria de Vendas em Python** | Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.. | [Ver Projeto] (./auditoria-vendas.py/) |
+| **Sistema de Auditoria de Vendas em Python** | Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.. | [Ver Projeto] (./auditoria-vendas.py) |
  
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
