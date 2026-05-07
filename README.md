@@ -22,76 +22,47 @@ Sou apaixonado por resolver problemas através da tecnologia, com foco em desenv
 
 Possuo experiência em análise de processos e suporte técnico multiskill, atuando diretamente com documentação e atualização de fluxos de chatbots.
 
-### 💡 Habilidades Técnicas
-- Python
-- Portugol
-- Lógica de Programação
-- Markdown
-
-### 🎯 Interesses
-- Interface Humano-Computador (IHC)
-- UX Design
-- Automação de Processos
-- Inteligência Artificial
-
-### 🤝 Habilidades Socioemocionais
-- Comunicação humanizada
-- Resolução de problemas
-- Análise crítica
-- Organização
-
+* **Habilidades Técnicas:** [Ex: Python, Java, SQL, AWS, Docker].
+* **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
+* **Experiência/Projetos Relevantes:** Atuei em [Projeto de Iniciação Científica/Estágio] onde desenvolvi [resultado principal].
+ 
 ---
-
-## 🛠 Ferramentas & Tecnologias
-
-### 💻 Linguagens e Tecnologias
-
+ 
+### 🛠 Minhas Ferramentas Favoritas
+ 
+#### 💻 Linguagens e Tecnologias
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
-### 🎨 Design de Interface (IHC/UX)
-
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+ 
+#### 🗄️ Banco de Dados
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+ 
+#### 🤖 Inteligência Artificial & Ciência de Dados
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+ 
 ---
-
-# 📂 Portfólio de Projetos
-
-## 🛡️ Segurança e Auditoria
-
+ 
+### 📂 Portfólio de Projetos
+ 
+#### 🗃️ Modelagem de Banco de Dados
 | Projeto | Descrição | Link |
-|---|---|---|
-| Sistema de Auditoria de Vendas | Sistema em Python para análise de vendas, cálculo de média e detecção de discrepâncias financeiras. | [Ver Projeto](./sistema-auditoria-vendas/) |
+| :--- | :--- | :---: |
+| **Sistema de Gestão Escolar** | Modelagem ER e Scripts SQL para uma instituição de ensino. | [Ver Projeto](./projeto-banco-dados/) |
+ 
+#### 🤖 Inteligência Artificial
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| **Simulador de Evacuação** | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador-evacuacao/) |
 
----
+
+
 
 ## 🌎 Inteligência Artificial & Simulações
 
 | Projeto | Descrição | Link |
 |---|---|---|
-| Análise de Microclima Temporal | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./analise-microclima/) |
-| Simulador de Evacuação | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador-evacuacao/) |
+|**Análise de Microclima Temporal** | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./analise-microclima/) |
 
----
 
-## 🎨 Computação Gráfica e Dados
 
-| Projeto | Descrição | Link |
-|---|---|---|
-| Computação Gráfica e Dados | Manipulação de pixels RGB e transposição de matrizes utilizando NumPy e Matplotlib. | [Ver Projeto](./computacao-grafica-dados/) |
-
----
-
-# 🏗 Estrutura do Repositório
-
-```bash
-root/
-│
-├── sistema-auditoria-vendas/
-├── analise-microclima/
-├── simulador-evacuacao/
-├── computacao-grafica-dados/
-├── exercicios-python/
-├── estudos-ihc/
-└── README.md
