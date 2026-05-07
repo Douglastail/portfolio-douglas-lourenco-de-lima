@@ -40,13 +40,46 @@ Possuo sólida experiência em análise de processos e suporte técnico multiski
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Simulação** | Algoritmos de análise ambiental (IQA).. | [Ver Projeto](./projeto-ia-churn/) |
+| **Simulação** | 🌎 Análise de Microclima Temporal em Python
+
+Projeto desenvolvido em Python para análise de condições ambientais em diferentes locais urbanos... | [Ver Projeto](./projeto-ia-churn/) |
+
+## 📌 Sobre o Projeto
+
+O sistema realiza uma análise temporal de microclima utilizando dados de:
+- temperatura
+- umidade
+- índice de qualidade do ar (IQA)
+
+Com base nessas informações, o algoritmo calcula uma nota ambiental para cada local analisado, classificando automaticamente a qualidade do ar.
 
 
 ### 🚨 Simulador de Evacuação em Python
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | ** O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe... | [Ver Projeto](./projeto-ia-churn/) |
+
+## 📌 Sobre o Projeto
+
+O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe.
+
+Durante o percurso, o usuário pode:
+- avançar entre locais
+- voltar caminhos
+- encontrar itens importantes
+- abrir portas
+- gerenciar a energia restante
+
+O projeto foi criado com objetivo educacional para praticar:
+- `while`
+- `if/elif`
+- listas
+- variáveis booleanas
+- controle de estados
+- entrada de dados com `input()`
+- lógica de movimentação
+
+---
 
 #### 🎨 Computação Gráfica e Dados
 | Projeto | Descrição | Link |
