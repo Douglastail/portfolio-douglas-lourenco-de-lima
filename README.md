@@ -40,8 +40,13 @@ Possuo sólida experiência em análise de processos e suporte técnico multiski
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Inteligência e Simulação** | Algoritmos de análise ambiental (IQA) e simulador de navegação espacial com lógica de estados.. | [Ver Projeto](./projeto-ia-churn/) |
+| **Simulação** | Algoritmos de análise ambiental (IQA).. | [Ver Projeto](./projeto-ia-churn/) |
 
+
+### 🚨 Simulador de Evacuação em Python
+| Projeto | Descrição | Link |
+| :--- | :--- | :---: |
+| ** O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe... | [Ver Projeto](./projeto-ia-churn/) |
 
 #### 🎨 Computação Gráfica e Dados
 | Projeto | Descrição | Link |
