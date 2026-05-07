@@ -17,132 +17,42 @@ Original file is located at
 
 def analisar_microclima_temporal():
 
-  dados_locais = [
+    dados_locais = [
+        ["Praça Silvio Romero", [1, 29, 38, 41], [2, 29, 56, 40]],
+        ["Avenida Marechal Tito", [1, 29, 40, 42], [2, 29, 41, 42]],
+        ["Ponto de ônibus", [1, 30, 42, 39], [2, 30, 43, 39]]
+    ]
 
-    ["Praça Silvio Romero", [1, 29, 38, 41], [2, 29, 56, 40]],
+    for local in dados_locais:
 
-    ["Avenida Marechal Tito", [1, 29, 40, 42], [2, 29, 41, 42]],
+        nome_local = local[0]
+        dias = local[1:]
 
-    ["Ponto de ônibus", [1, 30, 42, 39], [2, 30, 43, 39]]
+        print(f"\n--- ANALISANDO: {nome_local} ---")
 
-  ]
+        for medicao in dias:
 
+            dia, temp, umid, iqa = medicao
 
+            if iqa <= 40:
+                qualidade = "Boa"
+            elif iqa <= 80:
+                qualidade = "Moderada"
+            else:
+                qualidade = "Ruim"
 
-  for local in dados_locais:
+            penalidade_umidade = 2 if umid < 40 or umid > 70 else 0
 
-    nome_local = local[0]
+            nota = 10 - (iqa * 0.03) - ((temp - 24) * 0.2) - penalidade_umidade
 
-    dias = local[1:]
+            if nota < 0:
+                nota = 0
 
+            nota_final = round(nota, 1)
 
-
-    print(f"\n--- ANALISANDO: {nome_local}")
-
-
-
-    for medicao in dias:
-
-      dia, temp, umid, iqa = medicao
-
-
-
-
-
-      match iqa:
-
-        case i if i <= 40:
-
-          qualidade = "Boa"
-
-        case i if i <= 80:
-
-          qualidade = "Moderada"
-
-        case _:
-
-          qualidade = "Ruim"
-
-
-
-
-
-      penalidade_umidade = 2 if umid < 40 or umid > 70 else 0
-
-
-
-      nota = 10 - (iqa * 0.03) - ((temp - 24) * 0.2) - penalidade_umidade
-
-
-
-
-
-      if nota < 0:
-
-        nota = 0
-
-
-
-      nota_final = round(nota, 1)
-
-
-
-      print(f"Dia: {dia} - Temp: {temp}°C - Umidade: {umid}% - IQA: {qualidade} - Nota: {nota_final}/10")
-
-
-
+            print(f"Dia: {dia} - Temp: {temp}°C - "
+                  f"Umidade: {umid}% - IQA: {qualidade} - "
+                  f"Nota: {nota_final}/10")
 
 
 analisar_microclima_temporal()
-
-analisar_microclima_temporal()
-
-LIMITE_SEGURANCA = 15000.00
-
-def analisar_vendas():
-    global LIMITE_SEGURANCA
-    print("--- Sistema de Auditoria de Vendas ---")
-
-    try:
-
-        v1 = float(input("Digite o valor da venda 1: "))
-        v2 = float(input("Digite o valor da venda 2: "))
-        v3 = float(input("Digite o valor da venda 3: "))
-        vendas = [v1, v2, v3]
-
-
-        media = sum(vendas) / len(vendas)
-        print(f"\nMédia calculada: R$ {media:.2f}")
-
-
-        for v in vendas:
-            if v > (media * 5):
-                print(f"\nALERTA: Discrepância detectada na venda de R$ {v:.2f}.")
-                print("Sugestão: REVISÃO MANUAL.")
-
-                # Permitir que o gerente altere o LIMITE_SEGURANCA (Uso do global)
-                confirmar = input(f"A venda de R$ {v:.2f} é legítima? (s/n): ").lower()
-                if confirmar == 's':
-                    novo_limite = float(input("Defina o novo LIMITE_SEGURANCA: "))
-                    LIMITE_SEGURANCA = novo_limite
-                    print(f"Limite atualizado para: R$ {LIMITE_SEGURANCA:.2f}")
-
-
-        if media > LIMITE_SEGURANCA:
-            print("\n!!! SISTEMA EM QUARENTENA !!!")
-        else:
-            print("\nStatus: Média dentro dos padrões de segurança.")
-
-
-        print("\n--- Verificação de Integridade de Dados ---")
-        print(f"Variável v1: {v1} | Tipo: {type(v1)}")
-        print(f"Variável v2: {v2} | Tipo: {type(v2)}")
-        print(f"Variável v3: {v3} | Tipo: {type(v3)}")
-        print(f"Variável media: {media} | Tipo: {type(media)}")
-        print(f"Variável LIMITE_SEGURANCA: {LIMITE_SEGURANCA} | Tipo: {type(LIMITE_SEGURANCA)}")
-
-    except ValueError:
-        print("\nErro: Por favor, insira apenas números decimais (use ponto em vez de vírgula).")
-
-
-analisar_vendas()
