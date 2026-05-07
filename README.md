@@ -1,228 +1,97 @@
-# Douglas Lourenço de lima
+# Douglas Lourenço de Lima
+
 > Estudante de Ciência da Computação da Universidade Cidade de São Paulo (UNICID).
 
 ---
 
-### 📫 Contato & Redes Sociais
+## 📫 Contato & Redes Sociais
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/douglas-louren%C3%A7o-de-lima-981579150/)
+
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dgs.core@hotmail.com)
+
 [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1115M1giMXo7YwQsEJLBO9quVH63UEknz/view?usp=sharing)
- 
----
-
-### 👨‍💻 Sobre
-Atualmente cursando o 1º período de **Ciência da Computação** na **Unicid**. Sou apaixonado por resolver problemas através da tecnologia, com foco em transição de carreira para a área de desenvolvimento e automação. 
-
-Possuo sólida experiência em análise de processos e suporte técnico multiskill, tendo atuado diretamente na **documentação e atualização de fluxos de chatbots**.
-
-* **Habilidades Técnicas:** Lógica de Programação, Python e Portugol.
-* **Interesses:** Interface Humano-Computador (IHC), UX Design e Automação de Processos.
-* **Habilidades Socioemocionais:** Comunicação humanizada, análise crítica e resolução de problemas complexos.
 
 ---
 
-### 🛠 Minhas Ferramentas & Estudos
-#### 💻 Linguagens e Tecnologias
+## 👨‍💻 Sobre
+
+Atualmente cursando o 1º período de **Ciência da Computação** na **UNICID**.
+
+Sou apaixonado por resolver problemas através da tecnologia, com foco em desenvolvimento, automação e análise lógica.
+
+Possuo experiência em análise de processos e suporte técnico multiskill, atuando diretamente com documentação e atualização de fluxos de chatbots.
+
+### 💡 Habilidades Técnicas
+- Python
+- Portugol
+- Lógica de Programação
+- Markdown
+
+### 🎯 Interesses
+- Interface Humano-Computador (IHC)
+- UX Design
+- Automação de Processos
+- Inteligência Artificial
+
+### 🤝 Habilidades Socioemocionais
+- Comunicação humanizada
+- Resolução de problemas
+- Análise crítica
+- Organização
+
+---
+
+## 🛠 Ferramentas & Tecnologias
+
+### 💻 Linguagens e Tecnologias
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-#### 🎨 Design de Interface (IHC/UX)
+### 🎨 Design de Interface (IHC/UX)
+
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ---
-### 📂 Portfólio de Projetos
- 
-#### 🗃️ Modelagem de Banco de Dados
+
+# 📂 Portfólio de Projetos
+
+## 🛡️ Segurança e Auditoria
+
 | Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Segurança e Auditoria** |# 🛡️ Sistema de Auditoria de Vendas em Python
-
-Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.
-
-## 📌 Sobre o Projeto
-
-O sistema recebe valores de vendas, calcula a média geral e identifica possíveis transações suspeitas com base em regras de comparação.
-
-Quando uma venda apresenta valor muito acima da média, o sistema gera um alerta e solicita confirmação manual do gerente.
-
-O projeto simula um processo simples de auditoria financeira e monitoramento de segurança de dados.
+|---|---|---|
+| Sistema de Auditoria de Vendas | Sistema em Python para análise de vendas, cálculo de média e detecção de discrepâncias financeiras. | [Ver Projeto](./sistema-auditoria-vendas/) |
 
 ---
 
-## 🧠 Funcionalidades
+## 🌎 Inteligência Artificial & Simulações
 
-✅ Entrada de dados com validação  
-✅ Cálculo automático de média  
-✅ Detecção de discrepâncias financeiras  
-✅ Sistema de alerta de segurança  
-✅ Atualização dinâmica do limite de segurança  
-✅ Tratamento de erros com `try/except`  
-✅ Verificação de tipos de dados  
-
----
-
-## 🖥️ Tecnologias Utilizadas
-
-- Python 3
-
----
-
-## 📚 Conceitos Aplicados
-
-Este projeto foi criado para praticar:
-- funções
-- listas
-- variáveis globais
-- estruturas condicionais
-- laços de repetição
-- tratamento de exceções
-- validação de entrada
-- análise lógica de dados
-
----
-
-## ▶️ Como Executar
-
-1. Instale o Python 3
-2. Execute o arquivo:
- | [Ver Projeto](./projeto-banco-dados/)
-
-#### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Simulação** | 🌎 Análise de Microclima Temporal em Python
-
-# 🌎 Análise de Microclima Temporal em Python
-
-Projeto desenvolvido em Python para análise de condições ambientais em diferentes locais urbanos.
-
-## 📌 Sobre o Projeto
-
-O sistema realiza uma análise temporal de microclima utilizando dados de:
-- temperatura
-- umidade
-- índice de qualidade do ar (IQA)
-
-Com base nessas informações, o algoritmo calcula uma nota ambiental para cada local analisado, classificando automaticamente a qualidade do ar.
+|---|---|---|
+| Análise de Microclima Temporal | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./analise-microclima/) |
+| Simulador de Evacuação | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador-evacuacao/) |
 
 ---
 
-## 🧠 Funcionalidades
+## 🎨 Computação Gráfica e Dados
 
-✅ Análise de múltiplos locais  
-✅ Classificação automática do IQA  
-✅ Cálculo de nota ambiental  
-✅ Penalidade por baixa ou alta umidade  
-✅ Uso de estruturas condicionais e listas  
-✅ Relatório organizado no terminal  
-
----
-
-## 🖥️ Tecnologias Utilizadas
-
-- Python 3
-
----
-
-## 📚 Conceitos Aplicados
-
-Este projeto foi criado para praticar:
-- funções
-- listas aninhadas
-- estruturas condicionais (`if/elif`)
-- laços de repetição (`for`)
-- variáveis
-- cálculos matemáticos
-- organização de dados
-
----
-
-## ▶️ Como Executar
-
-1. Instale o Python 3
-2. Execute o arquivo:
-
-[Ver Projeto](./projeto-banco-dados/)
-
-
-
-
-
-### 🚨 Simulador de Evacuação em Python
 | Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| ** O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe... |
-# 🚨 Simulador de Evacuação em Python
-
-Projeto desenvolvido em Python com foco em lógica de programação, estruturas condicionais e interação com o usuário.
-
-## 📌 Sobre o Projeto
-
-O sistema simula uma evacuação em diferentes ambientes, onde o jogador deve escolher a direção correta para encontrar a saída antes que a energia acabe.
-
-Durante o percurso, o usuário pode:
-- avançar entre locais
-- voltar caminhos
-- encontrar itens importantes
-- abrir portas
-- gerenciar a energia restante
-
-O projeto foi criado com objetivo educacional para praticar:
-- `while`
-- `if/elif`
-- listas
-- variáveis booleanas
-- controle de estados
-- entrada de dados com `input()`
-- lógica de movimentação
+|---|---|---|
+| Computação Gráfica e Dados | Manipulação de pixels RGB e transposição de matrizes utilizando NumPy e Matplotlib. | [Ver Projeto](./computacao-grafica-dados/) |
 
 ---
 
-## 🖥️ Tecnologias Utilizadas
+# 🏗 Estrutura do Repositório
 
-- Python 3
-
----
-
-## 🎮 Funcionalidades
-
-✅ Sistema de movimentação  
-✅ Controle de energia  
-✅ Interação com usuário  
-✅ Sistema de chave e porta  
-✅ Simulação de tomada de decisão  
-
----
-
-## 📚 Aprendizados
-
-Este projeto ajudou no desenvolvimento de:
-- raciocínio lógico
-- criação de algoritmos
-- organização de código
-- construção de pequenas simulações
-- pensamento voltado para jogos e automações
-
----
-
-## ▶️ Como Executar
-
-1. Instale o Python 3
-2. Execute o arquivo:
-
-[Ver Projeto](./projeto-ia-churn/) |
-
-
-#### 🎨 Computação Gráfica e Dados
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
-| **Computação Gráfica e Dados** | Manipulação de pixels RGB e transposição de matrizes utilizando NumPy e Matplotlib... | [Ver Projeto](./projeto-ia-churn/) |
-
----
-
-### 🏗 Estrutura do Repositório
-Abaixo, a organização deste repositório para facilitar a navegação:
- 
-- `root/`: Arquivo de apresentação principal.
-- `/exercicios-python/`: Pasta contendo os desafios de lógica e cálculos matemáticos.
-- `/estudos-ihc/`: Documentação e exemplos sobre interfaces e usabilidade.
+```bash
+root/
+│
+├── sistema-auditoria-vendas/
+├── analise-microclima/
+├── simulador-evacuacao/
+├── computacao-grafica-dados/
+├── exercicios-python/
+├── estudos-ihc/
+└── README.md
