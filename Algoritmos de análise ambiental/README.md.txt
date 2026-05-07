@@ -1,23 +1,53 @@
+# 🛡️ Sistema de Auditoria de Vendas em Python
 
-# 🌦️ Análise de Microclima e Simulação de Evacuação
+Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.
 
-## 📝 Descrição do Projeto
-Este repositório contém dois algoritmos de simulação aplicados a cenários cotidianos. O primeiro analisa dados meteorológicos de pontos específicos da Zona Leste (IQA, temperatura e umidade) para gerar notas de bem-estar. O segundo é um simulador de movimentação espacial que utiliza uma máquina de estados para guiar um agente por uma residência até a saída, gerenciando recursos como energia e itens de inventário (chave).
+## 📌 Sobre o Projeto
 
-## 🚀 Tecnologias Utilizadas
-* **Linguagem:** Python 3.10
-* **Estruturas:** Listas aninhadas (`nested lists`), Loops `while` e Condicionais complexas.
-* **Destaque:** Uso da estrutura `match-case` para classificação de qualidade do ar.
+O sistema recebe valores de vendas, calcula a média geral e identifica possíveis transações suspeitas com base em regras de comparação.
 
-## 📊 Resultados e Aprendizados
-O projeto alcançou resultados sólidos na modelagem de decisões lógicas.
-* **Pensamento Computacional:** Aprendi a decompor o ato físico de navegação em uma sequência lógica de condições.
-* **Gestão de Estados:** Implementei um sistema de retrocesso onde o agente volta espaços ao encontrar obstáculos sem a chave necessária.
-* **Lógica Ambiental:** Desenvolvi uma fórmula de penalização matemática para avaliar o conforto térmico local.
+Quando uma venda apresenta valor muito acima da média, o sistema gera um alerta e solicita confirmação manual do gerente.
 
-## 🔧 Como Executar
-1. Clone o repositório.
-2. Execute o comando: `python microclima_evacuacao.py`.
+O projeto simula um processo simples de auditoria financeira e monitoramento de segurança de dados.
 
 ---
-[Voltar ao início](https://github.com/douglas-lourenco-lima/douglas-lourenco-lima)
+
+## 🧠 Funcionalidades
+
+✅ Entrada de dados com validação  
+✅ Cálculo automático de média  
+✅ Detecção de discrepâncias financeiras  
+✅ Sistema de alerta de segurança  
+✅ Atualização dinâmica do limite de segurança  
+✅ Tratamento de erros com `try/except`  
+✅ Verificação de tipos de dados  
+
+---
+
+## 🖥️ Tecnologias Utilizadas
+
+- Python 3
+
+---
+
+## 📚 Conceitos Aplicados
+
+Este projeto foi criado para praticar:
+- funções
+- listas
+- variáveis globais
+- estruturas condicionais
+- laços de repetição
+- tratamento de exceções
+- validação de entrada
+- análise lógica de dados
+
+---
+
+## ▶️ Como Executar
+
+1. Instale o Python 3
+2. Execute o arquivo:
+
+```bash
+python auditoria_vendas.py
