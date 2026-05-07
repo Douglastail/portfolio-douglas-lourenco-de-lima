@@ -1,26 +1,26 @@
-# 🛡️ Sistema de Auditoria de Vendas em Python
+# 🌎 Análise de Microclima Temporal em Python
 
-Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.
+Projeto desenvolvido em Python para análise de condições ambientais em diferentes locais urbanos.
 
 ## 📌 Sobre o Projeto
 
-O sistema recebe valores de vendas, calcula a média geral e identifica possíveis transações suspeitas com base em regras de comparação.
+O sistema realiza uma análise temporal de microclima utilizando dados de:
+- temperatura
+- umidade
+- índice de qualidade do ar (IQA)
 
-Quando uma venda apresenta valor muito acima da média, o sistema gera um alerta e solicita confirmação manual do gerente.
-
-O projeto simula um processo simples de auditoria financeira e monitoramento de segurança de dados.
+Com base nessas informações, o algoritmo calcula uma nota ambiental para cada local analisado, classificando automaticamente a qualidade do ar.
 
 ---
 
 ## 🧠 Funcionalidades
 
-✅ Entrada de dados com validação  
-✅ Cálculo automático de média  
-✅ Detecção de discrepâncias financeiras  
-✅ Sistema de alerta de segurança  
-✅ Atualização dinâmica do limite de segurança  
-✅ Tratamento de erros com `try/except`  
-✅ Verificação de tipos de dados  
+✅ Análise de múltiplos locais  
+✅ Classificação automática do IQA  
+✅ Cálculo de nota ambiental  
+✅ Penalidade por baixa ou alta umidade  
+✅ Uso de estruturas condicionais e listas  
+✅ Relatório organizado no terminal  
 
 ---
 
@@ -34,13 +34,12 @@ O projeto simula um processo simples de auditoria financeira e monitoramento de 
 
 Este projeto foi criado para praticar:
 - funções
-- listas
-- variáveis globais
-- estruturas condicionais
-- laços de repetição
-- tratamento de exceções
-- validação de entrada
-- análise lógica de dados
+- listas aninhadas
+- estruturas condicionais (`if/elif`)
+- laços de repetição (`for`)
+- variáveis
+- cálculos matemáticos
+- organização de dados
 
 ---
 
@@ -50,4 +49,4 @@ Este projeto foi criado para praticar:
 2. Execute o arquivo:
 
 ```bash
-python auditoria_vendas.py
+python microclima.py
