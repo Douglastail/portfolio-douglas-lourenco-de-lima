@@ -1,5 +1,3 @@
-README.md
-
 
 # 🌦️ Análise de Microclima e Simulação de Evacuação
 
