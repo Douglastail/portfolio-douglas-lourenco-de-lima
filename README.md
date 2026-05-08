@@ -49,19 +49,7 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
 | **Sistema de Auditoria de Vendas em Python** | Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.. | [Ver Projeto](./auditoria-vendas/) |
- 
-#### 🤖 Inteligência Artificial
-| Projeto | Descrição | Link |
-| :--- | :--- | :---: |
 | **Simulador de Evacuação** | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador_evacuacao/) |
-
-
-
-
-## 🌎 Inteligência Artificial & Simulações
-
-| Projeto | Descrição | Link |
-|---|---|---|
 |**Análise de Microclima Temporal** | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./Algoritmos%20de%20análise%20ambiental/) |
 
 - `root/`: Arquivo de apresentação principal.
