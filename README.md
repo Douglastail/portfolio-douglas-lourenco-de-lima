@@ -53,7 +53,7 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
 #### 🤖 Inteligência Artificial
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Simulador de Evacuação** | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](.projeto-algoritmos-de-analise-ambiental) |
+| **Simulador de Evacuação** | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador_evacuacao/) |
 
 
 
