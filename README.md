@@ -62,7 +62,7 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
 
 | Projeto | Descrição | Link |
 |---|---|---|
-|**Análise de Microclima Temporal** | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./Algoritmos-de-análise-ambiental/) |
+|**Análise de Microclima Temporal** | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./ Algoritmos de análise ambiental/) |
 
 - `root/`: Arquivo de apresentação principal.
 - `/projeto-nome/`: Pasta contendo o código-fonte, documentação e o README específico do projeto acadêmico.
