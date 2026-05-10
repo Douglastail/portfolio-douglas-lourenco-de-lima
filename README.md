@@ -45,10 +45,10 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
  
 ### 📂 Portfólio de Projetos
  
-#### 🛡️ Sistema de Auditoria de Vendas em Python
+
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **istema de Auditoria e Gestão de Orçamento Empresarial** | Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.. | [Ver Projeto](./Sistema%20de%20Auditoria%20e%20Gestão%20de%20Orçamento%20Empresarial/) |
+| **Sistema de Auditoria e Gestão de Orçamento Empresarial** | Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.. | [Ver Projeto](./Sistema%20de%20Auditoria%20e%20Gestão%20de%20Orçamento%20Empresarial/) |
 | **Simulador de Evacuação** | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador_evacuacao/) |
 |**Análise de Microclima Temporal** | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./Algoritmos%20de%20análise%20ambiental/) |
 
