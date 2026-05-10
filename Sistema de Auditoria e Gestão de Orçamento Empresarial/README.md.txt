@@ -48,8 +48,8 @@ O sistema realiza a análise de departamentos e subsetores corporativos, permiti
  
 ## 👤 Autor
  
-* **[Douglas Lima]** * LinkedIn: [https://www.linkedin.com/in/douglas-louren%C3%A7o-de-lima-981579150]
-* E-mail: [dgs.core@hotmail.com]
+* **Douglas Lima** * LinkedIn: https://www.linkedin.com/in/douglas-louren%C3%A7o-de-lima-981579150
+* E-mail: dgs.core@hotmail.com
  
 ---
 *Projeto acadêmico com foco na aplicação prática de conceitos avançados da linguagem Python.*
