@@ -52,6 +52,16 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
 | **Simulador de Evacuação** | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador_evacuacao/) |
 |**Análise de Microclima Temporal** | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./Algoritmos%20de%20análise%20ambiental/) |
 |**Processador de Vendas** | Esta função deve calcular o total de uma compra, aplicando descontos progressivos e validando o estoque.. | [Ver Projeto](./projeto_processar_vendas/) |
+|**Auditoria de Vendas** | Este projeto foca na integridade de dados financeiros e monitoramento de vendas. | [Ver Projeto](./auditoria-vendas/) |
+|**Sistema de caixa de Troco** | Um algoritimo que faz a leitura total da compra e calculao valor do troco. | [Ver Projeto](./projeto_analisador_de_clima/) |
+|**Analisador de Clima** | Um algoritimo . | [Ver Projeto](./projeto_sistema_notas_turma/) |
+|**Simulador de Poupança** | Um algoritimo . | [Ver Projeto](./projeto_simulador_poupanca/) |
+|**Criador de Emojis** | Um algoritimo. | [Ver Projeto](./projeto_criador_de_emojis/) |
+|**Matriz Musical** | Um algoritimo. | [Ver Projeto](./projeto_matrizes_musicais/) |
+|**Matriz Pirata** | Um algoritimo. | [Ver Projeto](./projeto_matriz_pirata/) |
+
+
+
 
 
 - `root/`: Arquivo de apresentação principal.
