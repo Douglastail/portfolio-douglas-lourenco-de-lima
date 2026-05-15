@@ -50,7 +50,7 @@ Breve explicação de como o código foi organizado:
  
 ## 👤 Autor
  
-* **[Douglas Lourenço de Lima** 
+* **[Douglas Lourenço de Lima]** 
 * E-mail: [dgs.core@hotmail.com]
  
 ---
