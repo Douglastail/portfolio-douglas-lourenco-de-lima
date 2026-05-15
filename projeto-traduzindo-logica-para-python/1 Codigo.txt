@@ -1,0 +1,62 @@
+1 Codigo
+
+
+
+1. Função: processar_vendas
+
+def processar_vendas():
+
+  total_compra = 0.0
+
+  itens_comprados = 0
+
+
+
+  quantidade_tipos = int(input("Quantos produtos diferentes foram comprados? "))
+
+
+
+  for i in range(quantidade_tipos):
+
+    produto = input("Nome do produto: ")
+
+    preco = float(input("Preço unitário: "))
+
+    qtd = int(input("Quantidade deste produto: "))
+
+    if preco <= 0 or qtd <= 0:
+
+      print(f"Erro: Valores inválidos para {nome}")
+
+    else:
+
+      subtotal = preco * qtd
+
+      total_compra += subtotal
+
+      itens_comprados += qtd
+
+  if total_compra > 500.00:
+
+    total_final = total_compra * 0.90  
+
+    print("Desconto de 10% aplicado!")
+
+  elif total_compra > 200.00:
+
+    total_final = total_compra * 0.95  
+
+    print("Desconto de 5% aplicado!")
+
+  else:
+
+    total_final = total_compra
+
+
+
+  print(f"Resumo: {itens_comprados} itens. Total a pagar: R$ {total_final:.2f}")
+
+processar_vendas()
+
+
+
