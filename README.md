@@ -10,7 +10,7 @@
 
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dgs.core@hotmail.com)
 
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](https://drive.google.com/file/d/1115M1giMXo7YwQsEJLBO9quVH63UEknz/view?usp=sharing)
+[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](cv)
 
 ---
 
