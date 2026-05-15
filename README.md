@@ -48,7 +48,7 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
 #### 🗃️ Programção de Computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| *Algoritimo de Auditoria de Dados* |Um Programa que analisa a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./projeto-algoritomo-de-altoria-de-dados/) |
+| *Algoritimo de Auditoria de Dados* |Um Programa que analisa a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./projeto-de-analise-ambiental/) |
 | *Traduzindo Lógica para Python* |Este projeto reúne um conjunto de módulos Python desenvolvidos com foco em *lógica de programação aplicada*, abrangendo cenários do dia a dia como gestão de vendas, análise climática, controle de notas escolares e simulação de investimentos. | [Ver Projeto](./projeto_logica_para_python/) |
 | *Engenharia de Contexto e Lógica Física* |Este projeto reúne dois módulos independentes que exploram *engenharia de contexto aplicada* e *simulação de agentes inteligentes* com lógica física e ambiental. | [Ver Projeto](./projeto_engenharia_de_contexto_e_logica_fisica/) |
 | *Sistema de Auditoria de Recursos Corporativos* |Esse sistema é um script em Python que calcula o orçamento total de uma empresa, mas com regras estritas de auditoria e flexibilidade de parâmetros. | [Ver Projeto](./projeto_sistema_de_auditoria/) |
