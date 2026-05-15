@@ -45,22 +45,16 @@ Possuo experiência em análise de processos e suporte técnico multiskill, atua
  
 ### 📂 Portfólio de Projetos
  
-
+#### 🗃️ Programção de Computadores
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| **Sistema de Auditoria e Gestão de Orçamento Empresarial** | Projeto desenvolvido em Python para análise e auditoria de vendas, com foco em detecção de discrepâncias financeiras e validação de segurança.. | [Ver Projeto](./Sistema%20de%20Auditoria%20e%20Gestão%20de%20Orçamento%20Empresarial/) |
-| **Simulador de Evacuação** | Simulação interativa em Python com movimentação, controle de energia e tomada de decisão. | [Ver Projeto](./simulador_evacuacao/) |
-|**Análise de Microclima Temporal** | Sistema de análise ambiental utilizando temperatura, umidade e IQA para gerar notas de qualidade climática. | [Ver Projeto](./Algoritmos%20de%20análise%20ambiental/) |
-|**Processador de Vendas** | Esta função deve calcular o total de uma compra, aplicando descontos progressivos e validando o estoque.. | [Ver Projeto](./projeto_processar_vendas/) |
-|**Auditoria de Vendas** | Este projeto foca na integridade de dados financeiros e monitoramento de vendas. | [Ver Projeto](./auditoria-vendas/) |
-|**Sistema de caixa de Troco** | Um algoritimo que faz a leitura total da compra e calculao valor do troco. | [Ver Projeto](./projeto_analisador_de_clima/) |
-|**Analisador de Clima** | Um projeto simples em Python criado para analisar temperaturas durante uma semana. | [Ver Projeto](./projeto_sistema_notas_turma/) |
-|**Simulador de Poupança** | Um algoritimo . | [Ver Projeto](./projeto_simulador_poupanca/) |
-|**Criador de Emojis** | Um algoritimo. | [Ver Projeto](./projeto_criador_de_emojis/) |
-|**Matriz Musical** | Um algoritimo. | [Ver Projeto](./projeto_matrizes_musicais/) |
-|**Matriz Pirata** | Um algoritimo. | [Ver Projeto](./projeto_matriz_pirata/) |
-
-
+| *Algoritimo de Auditoria de Dados* |Um Programa que analisa a consistência de dados financeiros, utilizando escopo global/local para parâmetros de segurança e lógica condicional para detecção de anomalias. | [Ver Projeto](./projeto-algoritomo-de-altoria-de-dados/) |
+| *Traduzindo Lógica para Python* |Este projeto reúne um conjunto de módulos Python desenvolvidos com foco em *lógica de programação aplicada*, abrangendo cenários do dia a dia como gestão de vendas, análise climática, controle de notas escolares e simulação de investimentos. | [Ver Projeto](./projeto_logica_para_python/) |
+| *Engenharia de Contexto e Lógica Física* |Este projeto reúne dois módulos independentes que exploram *engenharia de contexto aplicada* e *simulação de agentes inteligentes* com lógica física e ambiental. | [Ver Projeto](./projeto_engenharia_de_contexto_e_logica_fisica/) |
+| *Sistema de Auditoria de Recursos Corporativos* |Esse sistema é um script em Python que calcula o orçamento total de uma empresa, mas com regras estritas de auditoria e flexibilidade de parâmetros. | [Ver Projeto](./projeto_sistema_de_auditoria/) |
+| *Sistema Criador de Emojis* |Este projeto consiste em um processador de imagens em pixel art que representa emojis como matrizes de pixels RGB e aplica transformações de cor programaticamente. O objetivo principal é demonstrar como imagens digitais podem ser manipuladas pixel a pixel por meio de estruturas de dados nativas do Python, sem o uso de bibliotecas de processamento de imagem de alto nível. | [Ver Projeto](./projeto_criador_de_emojis/) |
+| *Engenharia de Soluções Logicas* |Este projeto consiste em um algoritmo de triagem clínica que classifica automaticamente pacientes em níveis de prioridade de atendimento com base em sinais vitais e fatores de risco coletados na entrada da emergência. O objetivo principal é simular o protocolo de triagem de Manchester, determinando a urgência do atendimento de forma estruturada e reproduzível, eliminando subjetividade na fila de espera. | [Ver Projeto](./projeto_solucao_algoritimica/) |
+| *Modularização* |Este projeto consiste em um algoritmo de cálculo de troco que, a partir do valor de uma compra e do valor pago pelo cliente, determina automaticamente o troco devido e o decompõe no menor número de cédulas possível. O objetivo principal é simular o comportamento de um caixa eletrônico ou PDV (ponto de venda), aplicando lógica de divisão e módulo para distribuir o troco entre as denominações disponíveis. | [Ver Projeto](./projeto_sistema_de_caixa/) |
 
 
 
