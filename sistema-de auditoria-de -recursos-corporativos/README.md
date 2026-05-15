@@ -50,8 +50,8 @@ Breve explicação de como o código foi organizado:
  
 ## 👤 Autor
  
-* **[Thiago Rodrigues Ribeiro]** 
-* E-mail: [thiagorodrigues.rb@hotmail.com]
+* **[Douglas Lourenço de Lima** 
+* E-mail: [dgs.core@hotmail.com]
  
 ---
 *Projeto acadêmico com foco na aplicação prática de conceitos avançados da linguagem Python.*
