@@ -1,5 +1,3 @@
-
-
 # 🌍 Algoritmos Geográficos: Microclima e Evacuação Espacial
 
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
@@ -8,46 +6,45 @@
 
 Este repositório contém a resolução de um desafio técnico que integra **análise ambiental**, **mapeamento físico** e **simulação de inteligência artificial**. O foco principal é a tradução da realidade física em estruturas de dados lógicas.
 
-Este arquivo contém uma combinação interessante de análise de dados geográficos e lógica de auditoria financeira. Preparei um README que organiza essas duas partes distintas de forma profissional para o seu GitHub.
+## 📍 Estrutura do Projeto
 
+### 🧪 Parte 1: Algoritmo do Microclima Local
+Desenvolvimento de um analisador de qualidade ambiental baseado em dados reais coletados em pontos estratégicos (ex: zonas arborizadas vs. cruzamentos asfálticos).
+*   **Métricas Analisadas:** Temperatura (°C), Umidade (%) e Índice de Qualidade do Ar (IQA).
+*   **Destaques Técnicos:** 
+    *   Uso de `match-case` para classificação de risco à saúde conforme padrões oficiais.
+    *   Criação de uma função de **Nota de Conforto Urbano** (fórmula personalizada ponderando extremos térmicos e poluição).
+    *   Iteração de dados através de loops aninhados em listas de listas.
 
-Proposta de Conteúdo (Markdown):
-Algoritmos de Análise Ambiental e Auditoria 🌍📊
-Este repositório contém scripts em Python desenvolvidos para processamento de dados ambientais e monitorização de integridade em sistemas de vendas. O projeto destaca o uso de estruturas de decisão avançadas, tratamento de exceções e gestão de variáveis globais.
+### 🏃 Parte 2: Simulador de Evacuação Espacial
+Mapeamento de uma rota de fuga real (casa/faculdade) traduzida para um grafo linear que um "agente cego" deve percorrer.
+*   **Lógica de Navegação:** Uso de um loop `while` e condicionais aninhadas para tomada de decisão baseada em obstáculos (portas, chaves, escadas).
+*   **Gestão de Inventário:** O algoritmo verifica se o agente possui os recursos necessários para superar barreiras em cada "nó" do trajeto.
 
-🛠️ Conteúdo do Projeto
-O ficheiro Algoritmos-de-análise-ambiental.py está dividido em duas frentes principais:
+### 🧠 Parte 3: Reflexão de Pensamento Computacional
+Uma análise profunda sobre o processo de **decomposição de problemas**. O texto aborda como a tradução de espaços físicos caóticos em variáveis absolutas altera a percepção do programador sobre a resolução de problemas complexos no cotidiano.
 
-1. Analisador de Microclima Temporal 🌡️
-Algoritmo que processa dados de diferentes localidades para avaliar o conforto ambiental.
+---
 
-Cálculo de Nota de Conforto: Utiliza uma fórmula que pondera o Índice de Qualidade do Ar (IQA), temperatura e humidade.
+## 🛠️ Competências Aplicadas
 
-Classificação de IQA: Implementa a estrutura match-case para categorizar a qualidade do ar em Boa, Moderada ou Ruim.
+| Conceito | Aplicação Prática |
+| :--- | :--- |
+| **Estruturas de Decisão** | `match-case` para IQA e `if/else` para obstáculos físicos. |
+| **Estruturas de Repetição** | `for` aninhado para métricas e `while` para estados de movimento. |
+| **Mapeamento de Dados** | Transformação de ambientes físicos em Listas e Dicionários. |
+| **Matemática Aplicada** | Cálculo de índices de conforto usando operadores lógicos complexos. |
 
-Penalizações Automáticas: Aplica redutores na nota final caso a humidade esteja fora do intervalo ideal (40% a 70%).
+---
 
-2. Sistema de Auditoria de Vendas 💰
-Ferramenta focada em segurança e deteção de anomalias financeiras.
+## 📂 Como Utilizar
 
-Deteção de Discrepâncias: Identifica automaticamente vendas que fogem drasticamente da média calculada.
+1.  **Pré-requisitos:** Python 3.10 ou superior instalado.
+2.  **Instalação:**
+    ```bash
+    git clone [https://github.com/seu-usuario/microclima-evacuacao.git](https://github.com/seu-usuario/microclima-evacuacao.git)
+    cd microclima-evacuacao
+    ```
+3.  **Execução:**Esta é uma atividade de alto nível que une a **coleta de dados do mundo real** com a **lógica de programação estruturada**. Ela exige que você saia da frente do computador para observar o ambiente antes de transformá-lo em algoritmos.
 
-Gestão de Segurança: Utiliza uma variável global de limite de segurança para controlar o estado de "quarentena" do sistema.
-
-Tratamento de Erros: Implementa blocos try-except para validar as entradas do utilizador.
-
-🚀 Como Executar
-Certifique-se de ter o Python 3.10 ou superior instalado (necessário para o suporte ao match-case).
-
-Execute o script:
-
-Bash
-
-python Algoritmos-de-análise-ambiental.py
-🧠 Conceitos Aplicados
-Estruturas de Repetição: Iteração sobre listas de dados geográficos e financeiros.
-
-Lógica Condicional Avançada: Uso de match-case e operadores lógicos para auditoria.
-
-Integridade de Dados: Verificação sistemática dos tipos de variáveis (float, type) durante a execução.
-*Desenvolvido como parte do currículo de **Análise e Desenvolvimento de Sistemas (ADS)**, com foco em automação e lógica de programação.*
+Aqui está o **README.md** ideal para este projeto no seu GitHub, estruturado para destacar suas habilidades de análise e codificação:
