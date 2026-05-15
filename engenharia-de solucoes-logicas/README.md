@@ -1,53 +1,75 @@
+# 🚦 Controle de Semáforo Inteligente
 
-# 🏗️ Arquitetura de Soluções: Da Abstração à Validação Lógica
-
-![Logic](https://img.shields.io/badge/Logic-Fluxogramas%20%26%20Pseudocódigo-blueviolet?style=for-the-badge)
-![Testing](https://img.shields.io/badge/QA-Teste%20de%20Mesa-success?style=for-the-badge)
-![Engineering](https://img.shields.io/badge/Engineering-Design%20de%20Sistemas-orange?style=for-the-badge)
-
-Este repositório apresenta o desenvolvimento de uma solução algorítmica para um problema complexo de impacto real. O foco deste projeto é o ciclo de vida inicial do desenvolvimento de software: **abstração**, **modelagem visual**, **estruturação lógica** e **validação de resiliência**.
-
-## 🚀 Problema Central
-
-A solução foi projetada para atuar na área de **[INSERIR O TEMA ESCOLHIDO]**, focando em:
-*   **O Desafio:** Transformar variáveis dinâmicas e imprevisíveis do mundo físico em um fluxo de decisões binárias e processamento de dados eficiente.
-
----
-
-## 📋 Etapas do Desenvolvimento
-
-### 1. Modelagem Visual (Fluxograma)
-Criação da arquitetura visual do sistema para mapear o caminho do dado.
-*   **Entradas:** Captura de informações via sensores ou interação do usuário.
-*   **Processamento:** Cálculos críticos e atribuições de variáveis.
-*   **Tomada de Decisão:** Implementação de múltiplos pontos de verificação condicional.
-
-### 2. Estruturação Lógica (Pseudocódigo)
-Tradução do modelo visual para lógica estruturada em **Portugol**.
-*   Uso de estruturas de repetição (`ENQUANTO`, `PARA`) para processamento contínuo.
-*   Implementação de condicionais (`SE/SENÃO`) para direcionamento da lógica de negócio.
-
-### 3. Validação por Teste de Mesa
-Simulação de execução do algoritmo em três frentes críticas:
-*   **Cenário A (Caminho Feliz):** Validação da entrada ideal.
-*   **Cenário B (Limites de Borda):** Teste com valores mínimos, máximos ou nulos.
-*   **Cenário C (Tratamento de Exceções):** Simulação de entradas inválidas ou falhas de leitura.
-
----
-
-## 🧠 Reflexão Crítica e Metacognição
-
-O projeto encerra com uma análise sobre a transposição do mundo real para o código:
-*   **Desafio de Abstração:** A complexidade de reduzir nuances humanas ou ambientais a decisões lógicas de "sim ou não".
-*   **Engenharia de Resiliência:** Proposta de melhorias baseadas nos erros encontrados no Cenário C.
-
----
+Este é um projeto desenvolvido em **Portugol** que simula o funcionamento de um sistema de controle de tráfego e semáforos inteligentes. O objetivo principal é gerenciar o tempo de sinal verde e tomar ações de redirecionamento ou segurança com base no fluxo de veículos, presença de pedestres e condições de congestionamento em tempo real.
 
 ## 🛠️ Tecnologias e Ferramentas
-
-*   **Lógica Estruturada:** Pseudocódigo (Portugol)
-*   **Documentação:** Markdown
+* **Linguagem:** Portugol (compatível com o VisuAlg)
+* **Paradigma:** Lógica de Programação e Estruturas Condicionais/Repetição
 
 ---
-*Este repositório é um registro de competências em **Análise de Sistemas**, fundamental para a formação em ADS.*
-EOF
+
+## 📋 Sobre o Projeto
+
+O algoritmo simula um loop contínuo de monitoramento urbana. Ele coleta dados das vias, processa o tempo necessário para o sinal verde e decide se há necessidade de intervenções (como desvios por congestionamento ou paradas de emergência para pedestres).
+
+### 📥 Coleta de Dados (Entradas)
+O sistema interage com o usuário solicitando as seguintes informações a cada ciclo:
+* **Nível de Tráfego:** Estado atual da via (ex: "intenso").
+* **Velocidade Média:** Velocidade dos veículos na via.
+* **Quantidade de Veículos:** Número total de automóveis contabilizados.
+* **Congestionamento:** Identificação se a via está travada (`verdadeiro` / `falso`).
+* **Presença de Pedestres:** Identificação de pedestres aguardando para atravessar (`verdadeiro` / `falso`).
+
+---
+
+## 🧠 Lógica de Decisão e Regras de Negócio
+
+O sistema baseia-se em um tempo inicial padrão de **10 segundos** para o sinal verde e aplica as seguintes regras:
+
+### 🔹 Decisão 1: Trânsito Intenso
+Se o nível de tráfego for igual a `"intenso"`, o sistema adiciona tempo extra para escoar os veículos:
+$$\text{tempo\_verde} = \text{tempo\_verde} + 5$$
+
+### 🔹 Decisão 2: Redirecionamento de Fluxo
+Caso seja detectado congestionamento (`congestionamento = verdadeiro`):
+* O sistema dispara o alerta: `Ação: Redirecionar`.
+* Caso contrário, mantém o monitoramento normal.
+
+### 🔹 Decisão 3: Preferência de Pedestres
+Se houver pedestres tentando atravessar (`pedestre = verdadeiro`):
+* O sistema prioriza a segurança e altera o estado para: `Ação: Sinal de Pedestres`.
+* Caso contrário, mantém o fluxo `NORMAL`.
+
+---
+
+## 🔄 Estrutura de Repetição e Encerramento
+
+O algoritmo roda dentro de um bloco `enquanto (continuar = verdadeiro)`. No final de cada ciclo, o sistema:
+1. Atualiza o status geral (`"Sistema atualizado"`).
+2. Pergunta ao usuário se a tarefa deve continuar operando.
+3. Se o usuário decidir encerrar, o loop é quebrado e exibe a mensagem: `"SISTEMA ENCERRADO"`.
+
+---
+
+## 💻 Estrutura das Variáveis
+
+O código utiliza as seguintes variáveis globais para o controle:
+
+| Variável | Tipo | Descrição |
+| :--- | :--- | :--- |
+| `trafego` | Caractere | Armazena o nível do fluxo (ex: "intenso") |
+| `velocidade` | Inteiro | Mede a velocidade média da via |
+| `veiculos` | Inteiro | Conta a quantidade de veículos |
+| `tempo-verde` | Inteiro | Controla o tempo de abertura do sinal |
+| `congestionamento` | Logico | Define se há retenção total na via |
+| `pedestre` | Logico | Indica presença de pedestres para travessia |
+| `continuar` | Logico | Condição de parada do loop principal |
+
+---
+
+## 🚀 Como Executar
+
+1. Baixe e instale o **VisuAlg** (ou utilize um interpretador Portugol de sua preferência).
+2. Copie o código fonte do arquivo principal.
+3. Cole no editor do VisuAlg.
+4. Pressione `F9` para rodar e interaja com o console inserindo os dados solicitados.
